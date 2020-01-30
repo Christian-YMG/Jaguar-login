@@ -46,6 +46,7 @@ body{
     from(rgba(255, 255, 255, .5)), to(rgba(0, 0, 0, 0.5)));
     background-image: linear-gradient(to top left, 
     rgba(255, 255, 255, .5), rgba(0, 0, 0, 0.5));
+    margin-bottom: 6%;
 }
 
 .formulario-img{
