@@ -8,14 +8,21 @@ body{
     height: 100vh;
     display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     -webkit-box-pack: center;
-            justify-content: center;
+            justify-content: space-evenly;
     -webkit-box-align: center;
             align-items: center;
     background-image: url(../IMG/Jaguar-fondo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
+}
+
+.title{
+    align-self: center;
 }
 
 .formulario{
@@ -82,4 +89,10 @@ input{
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
+}
+
+@media screen and (max-width:600px){
+    .title{
+        font-size: 23px;
+    }
 }
