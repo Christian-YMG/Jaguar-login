@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    background-image: url(../IMG/Jaguar-fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.formulario{
+    width: 300px;
+    height: 350px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+            align-items: center;
+    box-shadow: 1px 1px 5px 0 rgb(43, 43, 43);
+    border-radius: 0 50px 0 50px;
+    background-image: -webkit-gradient(linear, 
+    right bottom, left top, 
+    from(rgba(255, 255, 255, .5)), to(rgba(0, 0, 0, 0.5)));
+    background-image: linear-gradient(to top left, 
+    rgba(255, 255, 255, .5), rgba(0, 0, 0, 0.5));
+}
+
+.formulario-img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.sesion{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(44, 44, 44);
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+::-webkit-input-placeholder{
+    text-indent: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+}
+
+.formulario .button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
